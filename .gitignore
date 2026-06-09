@@ -1,0 +1,33 @@
+# PHP
+*.log
+vendor/
+composer.lock
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Uploads
+uploads/
+temp/
+cache/
+
+# Database
+*.db
+*.sqlite
+
+# Node (if using npm)
+node_modules/
+npm-debug.log
+
+# System
+.htaccess.local
+
+# Session files
+session/
